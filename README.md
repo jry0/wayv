@@ -1,11 +1,21 @@
-# Chirp SDK for Android
+# WAYV
+WAYV is a novel app that seeks to replace traditional ticketing solutions such as physical passes and cards by using sound waves to authenticate users. Utilizing the Chirp API, WAYV allows users to easily present their credentials to a receiving device by transmitting a unique "sonic barcode." Consisting of an Android app, a database (Google Firebase,) and Wix website, WAYV is not just an app; it is a sophisticated system of components which work together to create a seamless and magical experience for its users.
 
-The Chirp SDK makes it quick and easy to integrate Chirp connectivity into your Android apps.
+## Background
+This app was created by myself and three of my colleagues at Yale Hack 2018. It made extensive use of the Chrip API — an incredibly unique API that enables the transmission of data over sound. 
 
-* For step-by-step instructions, follow the [Chirp Getting Started Guide for Android](https://developers.chirp.io/docs/getting-started/android).
-* For an overview of Chirp technology, see our [Chirp Overview](https://developers.chirp.io/docs/).
-* To get in touch directly, visit [Chirp Developer Support](https://developers.chirp.io/support).
 
-***
+## Usage
+Open the project folder in Android studio. Then perform a "Gradle Sync."
 
-This software is copyright © 2011-2018, Asio Ltd. All rights reserved.
+```bash
+./gradlew build
+```
+For immediate testing or debugging, build and install on a device or emulator using
+
+
+```bash
+./gradlew installDebug
+```
+
+Upon launching the app, accept the login prompt to link your Google account to WAYV; future authentication attempts will automatically be tied to your Google account.
